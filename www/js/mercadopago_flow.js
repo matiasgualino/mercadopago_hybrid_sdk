@@ -325,4 +325,4 @@ angular.module('mercadopago.services', [])
 			 return { id: 'id1', name: 'Funda Flip Cover Samsung Galaxy S4 Mini', image_url:'http://mla-s1-p.mlstatic.com/funda-flip-cover-samsung-galaxy-s4-mini-original-film-7290-MLA5178884614_102013-O.jpg', price: 100 }
 			 }
 		 }
-		 });
+});

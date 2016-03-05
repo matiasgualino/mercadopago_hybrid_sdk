@@ -5,21 +5,21 @@
     <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
     <title></title>
 
-    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="../lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
 
     <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
     <link href="css/ionic.app.css" rel="stylesheet">
     -->
 
     <!-- ionic/angularjs js -->
-    <script src="lib/ionic/js/ionic.bundle.js"></script>
+    <script src="../lib/ionic/js/ionic.bundle.js"></script>
 
     <!-- cordova script (this will be a 404 during development) -->
     <script src="cordova.js"></script>
 	<script src="https://secure.mlstatic.com/sdk/javascript/v1/mercadopago.js"></script>
     <!-- your app's js -->
-    <script src="js/app.js"></script>
+    <script src="../js/mercadopago_flow.js"></script>
 <!--	<script src="js/controllers.js"></script>
 	<script src="js/services.js"></script>	-->
   </head>
@@ -94,7 +94,7 @@
 		<div class="list">
 		<label class="item item-input item-stacked-label">
 		<span class="input-label">Card Number</span>
-		<input type="number" id="cardNumber" ng-model="card_token.card_number" placeholder="4509 9535 6623 3704">
+		<input type="number" id="cardNumber" ng-model="card_token.cardNumber" placeholder="4509 9535 6623 3704">
 		</label>
 		<label class="item item-input item-stacked-label">
 		<span class="input-label">Cardholder Name</span>
@@ -102,11 +102,11 @@
 		</label>
 		<label class="item item-input item-stacked-label">
 		<span class="input-label">Expiration Month</span>
-		<input type="number" id="cardExpirationMonth" ng-model="card_token.expiration_month" placeholder="MM">
+		<input type="number" id="cardExpirationMonth" ng-model="card_token.expirationMonth" placeholder="MM">
 		</label>
 		<label class="item item-input item-stacked-label">
 		<span class="input-label">Expiration Year</span>
-		<input type="number" id="cardExpirationYear" ng-model="card_token.expiration_year" placeholder="AAAA">
+		<input type="number" id="cardExpirationYear" ng-model="card_token.expirationYear" placeholder="AAAA">
 		</label>
 		<label class="item item-input item-select">
 		<div class="input-label">Document Type</div>
@@ -121,7 +121,7 @@
 		</label>
 		<label class="item item-input item-stacked-label">
 		<span class="input-label">Security Code</span>
-		<input type="text" id="securityCode" ng-model="card_token.security_code" placeholder="123">
+		<input type="text" id="securityCode" ng-model="card_token.securityCode" placeholder="123">
 		</label>
 		<button type="submit" class="button button-full button-balanced">
 		Pagar

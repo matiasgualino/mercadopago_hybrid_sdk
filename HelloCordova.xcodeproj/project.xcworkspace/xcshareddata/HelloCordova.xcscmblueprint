@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "A611CD59B5C639F1272EC66E64FEB1E3C17BD3C1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "A611CD59B5C639F1272EC66E64FEB1E3C17BD3C1" : 0,
+    "9D2B5D4A0EA2BAE4612CCD4714D0E01ED565243A" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "0ECBFF69-8BD2-4D42-BB13-F8BB81A67CEF",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "A611CD59B5C639F1272EC66E64FEB1E3C17BD3C1" : "ios\/",
+    "9D2B5D4A0EA2BAE4612CCD4714D0E01ED565243A" : ".."
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "HelloCordova",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "HelloCordova.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/matiasgualino\/mercadopago_hybrid_sdk.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9D2B5D4A0EA2BAE4612CCD4714D0E01ED565243A"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/matiasgualino\/mercadopago_hybrid_sdk.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A611CD59B5C639F1272EC66E64FEB1E3C17BD3C1"
+    }
+  ]
+}
